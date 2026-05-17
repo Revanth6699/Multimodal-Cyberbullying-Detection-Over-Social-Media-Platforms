@@ -5,20 +5,20 @@ A real-time moderation system that detects cyberbullying from text, audio, video
 Cyberbullying has become a major issue across social media platforms. Most existing systems focus only on text-based moderation and fail to process multimedia content such as audio and video. This project addresses that gap by extracting text from audio/video content and analyzing it using NLP-based cyberbullying detection techniques.
 
 ## Features
--> Text toxicity detection
--> Audio-to-text moderation
--> Video-to-audio extraction and moderation
--> URL moderation (YouTube, Instagram, Facebook, WhatsApp links)
--> Offensive and explicit word detection
--> Severity scoring (0–5)
-=> Confidence score generation
--> Dataset evaluation
-=> Accuracy
-=> F1 - Score
-=> Recall
-=> Percision
-=> Confusion matrix visualization
--> Streamlit moderation dashboard
+1. Text toxicity detection
+2. Audio-to-text moderation
+3. Video-to-audio extraction and moderation
+4. URL moderation (YouTube, Instagram, Facebook, WhatsApp links)
+5. Offensive and explicit word detection
+6. Severity scoring (0–5)
+6.1. Confidence score generation
+7. Dataset evaluation
+7.1. Accuracy
+7.2. F1 - Score
+7.3. Recall
+7.4. Percision
+7.5. Confusion matrix visualization
+8. Streamlit moderation dashboard
 
 ## Supported Inputs
 Input Type | Processing |
@@ -35,14 +35,14 @@ Dataset | Evaluation metrics generation
 ### Speech Recognition
 -> OpenAI Whisper
 ### Media Processing
--> FFmpeg
--> yt-dlp
+1. FFmpeg
+2. yt-dlp
 ### Algorithms
--> Regex Tokenization
--> Dictionary Matching
--> Fuzzy Matching
--> Severity Scoring
--> Confusion Matrix Evaluation
+1. Regex Tokenization
+2. Dictionary Matching
+3. Fuzzy Matching
+4. Severity Scoring
+5. Confusion Matrix Evaluation
 
 ## Pipeline
 Input → Text Extraction → NLP Analysis → Severity Engine → Moderation Result
@@ -63,22 +63,22 @@ Severity | Meaning |
 5 | High |
 
 ## Evaluation Metrics
--> Accuracy
--> Precision
--> Recall
--> F1 Score
--> Confusion Matrix
+1. Accuracy
+2. Precision
+3. Recall
+4. F1 Score
+5. Confusion Matrix
 
 ## Tech Stack
--> Python
--> FastAPI
--> Streamlit
--> Transformers
--> Whisper
--> FFmpeg
--> yt-dlp
--> Scikit-learn
--> Matplotlib
+1. Python
+2. FastAPI
+3. Streamlit
+4. Transformers
+5. Whisper
+6. FFmpeg
+7. yt-dlp
+8. Scikit-learn
+9. Matplotlib
 
 ## Installation
 git clone https://github.com/Revanth6699/Multimodal-Cyberbullying-Detection-Over-Social-Media-Platforms.git
@@ -108,8 +108,8 @@ streamlit run frontend/app.py
 4. Depends on speech clarity in audio/video
 
 ## Future Improvements
--> OCR integration for image moderation
--> Facial expression detection
--> Gesture analysis
--> Real-time streaming moderation
--> Database integration
+1. OCR integration for image moderation
+2. Facial expression detection
+3. Gesture analysis
+4. Real-time streaming moderation
+5. Database integration

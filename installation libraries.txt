@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+streamlit
+transformers
+torch
+openai-whisper
+yt-dlp
+ffmpeg-python
+pandas
+numpy
+scikit-learn
+matplotlib
+rapidfuzz
+python-multipart

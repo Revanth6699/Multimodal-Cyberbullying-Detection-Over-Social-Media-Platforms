@@ -102,10 +102,10 @@ streamlit run frontend/app.py
 
 
 ## Limitations
--> Primarily optimized for English
--> No OCR-based image moderation
--> No gesture or facial expression detection
--> Depends on speech clarity in audio/video
+1. Primarily optimized for English
+2. No OCR-based image moderation
+3. No gesture or facial expression detection
+4. Depends on speech clarity in audio/video
 
 ## Future Improvements
 -> OCR integration for image moderation

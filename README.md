@@ -11,13 +11,13 @@ Cyberbullying has become a major issue across social media platforms. Most exist
 4. URL moderation (YouTube, Instagram, Facebook, WhatsApp links)
 5. Offensive and explicit word detection
 6. Severity scoring (0–5)
-6.1. Confidence score generation
+   - Confidence score generation
 7. Dataset evaluation
-7.1. Accuracy
-7.2. F1 - Score
-7.3. Recall
-7.4. Percision
-7.5. Confusion matrix visualization
+   - Accuracy
+   - F1 - Score
+   - Recall
+   - Percision
+   - Confusion matrix visualization
 8. Streamlit moderation dashboard
 
 ## Supported Inputs
@@ -81,15 +81,20 @@ Severity | Meaning |
 9. Matplotlib
 
 ## Installation
+```bash
 git clone https://github.com/Revanth6699/Multimodal-Cyberbullying-Detection-Over-Social-Media-Platforms.git
 cd multimodal-cyberbullying-detection
 pip install -r requirements.txt
-
+```
+```
 ## Run Backend
 uvicorn backend.main:app --reload
+```
 
+```
 ## Run Frontend
 streamlit run frontend/app.py
+```
 
 ## Screenshots
 <img width="1920" height="1080" alt="dataset 2" src="https://github.com/user-attachments/assets/2226a4fb-64cf-46e7-9901-120d75a2fe21" />
